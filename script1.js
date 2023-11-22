@@ -7,3 +7,5 @@ let token="33cae465963e4dcd86cce3fdd45ca561";
 axios.get(url, {
     headers : {
         "X-Auth-Token":token
+    }
+})
