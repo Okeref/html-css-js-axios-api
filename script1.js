@@ -9,3 +9,4 @@ axios.get(url, {
         "X-Auth-Token":token
     }
 })
+.then(function (response) {
