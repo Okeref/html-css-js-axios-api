@@ -11,3 +11,4 @@ axios.get(url, {
 })
 .then(function (response) {
   // en cas de réussite de la requête
+  console.log(response.data);
