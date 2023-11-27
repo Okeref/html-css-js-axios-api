@@ -12,3 +12,4 @@ axios.get(url, {
 .then(function (response) {
   // en cas de réussite de la requête
   console.log(response.data);
+  console.log(response.data.standings[0].group); 
