@@ -17,3 +17,4 @@ axios.get(url, {
   let i=0;
   for(i=0;i<8;i++){
     groupsdiv.innerHTML += `
+    <table>
