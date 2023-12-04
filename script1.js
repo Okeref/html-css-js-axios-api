@@ -18,3 +18,4 @@ axios.get(url, {
   for(i=0;i<8;i++){
     groupsdiv.innerHTML += `
     <table>
+    <tr class="groupname"> <th colspan="6">${response.data.standings[i].group}</th></tr>
